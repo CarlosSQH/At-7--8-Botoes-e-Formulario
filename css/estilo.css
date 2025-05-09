@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/imagens/fundo.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 720px;
+}
+
+div {
+  width: 40%;
+  padding: 20px;
+  margin-left: 30%;
+  margin-top: 10%;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  height: 40%;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  justify-self: center;
+  width: 60%;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(147, 147, 235);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
